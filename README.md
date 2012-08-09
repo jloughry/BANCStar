@@ -1,6 +1,15 @@
 BANCStar Source Code (rjl@applied-math.org)
 ====================
 
+Wikipedia Page
+--------------
+
+The BANCStar programming language has a Wikipedia page:
+[http://en.wikipedia.org/wiki/BANCStar_programming_language].
+
+My 1997 Article on the language
+-------------------------------
+
 *I wrote the following article in 1997.  It was published by Brian Connors in the Turing Tarpit
 [http://reocities.com/ResearchTriangle/station/2266/tarpit/bancstar.html] and updated in 2000.
 Further samples of BANCStar source code will be collected here as they are found.*
