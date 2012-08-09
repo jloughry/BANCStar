@@ -10,7 +10,7 @@ The BANCStar programming language has its own Wikipedia page:
 Longer example
 --------------
 
-I have another BANCStar programme, of a more typical size (1600 lines of source) and known
+I have another BANCStar programme, of a more typical size (1060 lines of source) and known
 functionality, but only in hard copy.  When I find time to OCR or re-type the pages, it will appear
 in the repository.
 
