@@ -1,13 +1,13 @@
 BANCStar Source Code (rjl@applied-math.org)
 ====================
 
-Code Sample
------------
+Code Samples!
+-------------
 
 The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
-is (the first page of) some production code used in First Interstate Bank of Washington
-around 1990.  As a side project, I wrote a sophisticated prettyprinter called LIST whose
-output can be seen in the file
+is (presently only the first page of) some production code used in First Interstate Bank
+of Washington around 1991.  As a side project, I wrote a sophisticated prettyprinter
+called LIST whose output can be seen in the file
 [`C16LNAPP.pdf`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).  In
 addition to the syntax highlighting and flow notation, LIST produced cross-references,
 statistics, and screen shots for documentation.  When I have time I'll put the rest of
@@ -19,19 +19,13 @@ Wikipedia page
 The BANCStar programming language has its own Wikipedia page:
 [http://en.wikipedia.org/wiki/BANCStar_programming_language].
 
-Longer example
---------------
-
-I have another BANCStar programme, of a more typical size (1060 lines of source) and known
-functionality, but only in hard copy.  When I find time to OCR or re-type the pages, it will appear
-in the repository.
-
 My 1997 article on the language
 -------------------------------
 
-*I wrote the following article in 1997.  It was published by Brian Connors in the Turing Tarpit
-[http://reocities.com/ResearchTriangle/station/2266/tarpit/bancstar.html] and updated in 2000.
-Further samples of BANCStar source code will be collected here as they are found.*
+*I wrote the following article in 1997.  It was published by Brian Connors in the
+Turing Tarpit* (http://reocities.com/ResearchTriangle/station/2266/tarpit/bancstar.html)
+*and updated in 2000.  Further samples of BANCStar source code will be collected here
+as they are found.*
 
 I think the world is ready to be introduced to BANCStar.
 
