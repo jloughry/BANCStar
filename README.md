@@ -1,6 +1,18 @@
 BANCStar Source Code (rjl@applied-math.org)
 ====================
 
+Code Sample
+-----------
+
+The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
+is (the first page of) some production code used in First Interstate Bank of Washington
+around 1990.  As a side project, I wrote a sophisticated prettyprinter called LIST whose
+output can be seen in the file
+[`C16LNAPP.pdf`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).  In
+addition to the syntax highlighting and flow notation, LIST produced cross-references,
+statistics, and screen shots for documentation.  When I have time I'll put the rest of
+the code up here.
+
 Wikipedia page
 --------------
 
