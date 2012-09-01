@@ -6,17 +6,20 @@ Code Samples!
 
 The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
 is (presently only the first page of) some production code used in First Interstate Bank
-of Washington around 1991.  As a side project, I wrote a sophisticated prettyprinter
-called LIST whose output can be seen in the file
+of Washington around 1991.  It is not used any more, and is of historical interest, so with
+permission I have published it here.
+
+As a side project at the bank, I wrote a sophisticated prettyprinter called `LIST` whose
+output can be seen in the file
 [`C16LNAPP.pdf`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).  In
-addition to the syntax highlighting and flow notation, LIST produced cross-references,
-statistics, and screen shots for documentation.  When I have time I'll put the rest of
-the code up here.
+addition to the syntax highlighting and flow notation shown here, `LIST` produced
+cross-references, statistics, and screen shots for documentation.  When I have time I'll
+put the rest of the code up here.
 
 Wikipedia page
 --------------
 
-The BANCStar programming language has its own Wikipedia page [here]
+The BANCStar programming language has its own [Wikipedia page]
 (http://en.wikipedia.org/wiki/BANCStar_programming_language).
 
 My 1997 article on the language
@@ -27,9 +30,9 @@ My 1997 article on the language
 *and updated in 2000.  Further samples of BANCStar source code will be collected here
 as they are found.*
 
-I think the world is ready to be introduced to BANCStar.
+> I think the world is ready to be introduced to BANCStar.
 
-The following actual sample of BANCStar source code was taken from a production system. I'm not too
+> The following actual sample of BANCStar source code was taken from a production system. I'm not too
 worried about revealing a lot of proprietary information here, as only about ten people in the
 world can read this code:
 
@@ -56,11 +59,11 @@ world can read this code:
     8500,,5,
     1547,,1,-2301
 
-I think we had something like 1,350 files of this code, most files a few hundred lines long, though
+> I think we had something like 1,350 files of this code, most files a few hundred lines long, though
 some were over 1,000 lines. The system ran the retail branch operations of a major commercial bank
 in the early 1990s.
 
-Interesting features of BANCStar included:
+> Interesting features of BANCStar included:
 
 - The only legal characters in a BANCStar program are the digits 0 through 9, comma, minus sign,
 and carriage return. Blank lines are not allowed. If a "." appears anywhere in the file, the
@@ -78,14 +81,14 @@ before the rightful owner noticed that they were gone.
 - Labels within the code are absolute, so any time a new page was added or removed, all
 downstream GOTOs must be found and retargeted.
 
-A few more details I remember:
+> A few more details I remember:
 
-BANCStar actually came with a "screen generator" that was supposed to be used to construct
+> BANCStar actually came with a "screen generator" that was supposed to be used to construct
 applications. But the 5.1c version of the generator was so limited that experienced programmers
 soon began to pry off the covers and modify directly the intermediate code that the run-time module
 actually executed.
 
-When I arrived in Seattle in early 1990, I joined a team of seven programmers who by now routinely
+> When I arrived in Seattle in early 1990, I joined a team of seven programmers who by now routinely
 wrote directly in BancSTAR machine language, completely ignoring the screen generator. The first
 time they showed me the language, I thought it was a joke. But within a few weeks I was reading and
 writing the code, with the aid of every BancSTAR programmer's favorite tools: a dot-matrix printer,
@@ -95,7 +98,7 @@ anyone changed anything of significance. (I wasn't kidding about reusing storage
 constant integer 1000, and you could find a place where somebody else had once used that same
 value, you linked your code to his and hoped it never changed.)
 
-We developed some in-house tools for programming large applications in BancSTAR, and at one point
+> We developed some in-house tools for programming large applications in BancSTAR, and at one point
 attempted to interest Broadway & Seymour in them, but I think they never really believed us, that
 we were writing directly to their internal, low-level, undocumented machine code.
 
