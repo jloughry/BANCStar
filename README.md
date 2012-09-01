@@ -1,8 +1,8 @@
 BANCStar Source Code (rjl@applied-math.org)
 ====================
 
-<a id="machine-code"></a> Code Samples!
--------------
+Code Sample
+-----------
 
 The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
 is (presently only the first page of) some production code used in First Interstate Bank
