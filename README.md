@@ -6,15 +6,14 @@ Code Samples!
 
 The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
 is (presently only the first page of) some production code used in First Interstate Bank
-of Washington around 1991.  It is not used any more, and is of historical interest, so with
-permission I have published it here.
+of Washington around 1991.  It is not used any more, and is of some historical interest,
+so with consent of the participants I have published it here.
 
-As a side project at the bank, I wrote a sophisticated prettyprinter called `LIST` whose
-output can be seen in the file
-[`C16LNAPP.pdf`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).  In
-addition to the syntax highlighting and flow notation shown here, `LIST` produced
-cross-references, statistics, and screen shots for documentation.  When I have time I'll
-put the rest of the code up here.
+As a side project at the bank, I wrote a sophisticated formatter dubbed LIST whose
+output can be seen [here](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).
+In addition to the syntax highlighting and flow notation shown, LIST produced a view on
+the code tailored to the programmer's need, generating cross-references, statistics, and
+screen shots for documentation.  When I have time I'll put the rest of the code up here.
 
 Wikipedia page
 --------------
@@ -65,20 +64,24 @@ in the early 1990s.
 
 > Interesting features of BANCStar included:
 
-- The only legal characters in a BANCStar program are the digits 0 through 9, comma, minus sign,
+> - The only legal characters in a BANCStar program are the digits 0 through 9, comma, minus sign,
 and carriage return. Blank lines are not allowed. If a "." appears anywhere in the file, the
 compiler will crash.
-- Comments are strictly prohibited.
-- Control structures available include the 3000 ("conditional"), 3001 ("block conditional"), and
+
+> - Comments are strictly prohibited.
+
+> - Control structures available include the 3000 ("conditional"), 3001 ("block conditional"), and
 3101 ("reverse block conditional"), as well as 8500 ("GOTO") and 8550 ("combination GOTO").
-- There is a hard limit of 2000 variables + constants in the entire system. Anything to be
+
+> - There is a hard limit of 2000 variables + constants in the entire system. Anything to be
 displayed on screen or printed on a form must be defined as a constant, thereby taking up part of
 this valuable space. As a result, most calculations are done with a block of twenty or so "working
 storage" variables, which are continually reused. Everything in the system is global. New projects
 always started off with the programmer searching for a handful of working storage numbers that
 could be "borrowed" long enough to complete the calculation, then restored to their original values
 before the rightful owner noticed that they were gone.
-- Labels within the code are absolute, so any time a new page was added or removed, all
+
+> - Labels within the code are absolute, so any time a new page was added or removed, all
 downstream GOTOs must be found and retargeted.
 
 > A few more details I remember:
