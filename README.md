@@ -1,7 +1,7 @@
 BANCStar Source Code (rjl@applied-math.org)
 ====================
 
-<img src="screenshot.jpeg">
+![screen shot](screenshot.jpeg)
 
 Code Sample
 -----------
