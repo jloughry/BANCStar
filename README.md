@@ -113,10 +113,9 @@ This is BANCStar source code:
     8500,,2,
     1254,2301,1,-2301
 
-Imagine being introduced to this code your first day on the job. In February, 1990, I was. A team
+Imagine being introduced to that code your first day on the job. In February, 1990, I was. A team
 of seven programmers maintained hundreds of files of this code in production (we didn't invent it;
 we just had to work with it).
-
 As a historical curiosity, I present here some of the surviving documentation on the tool I made to
 cope with it, which duplicated as closely as possible the highlighter-pens-and-paper method that
 earlier programmers used to work on the code.
@@ -132,7 +131,7 @@ of Washington around 1991.  It is not used any more, and is of some historical i
 so with consent of the participants I have published it here.
 
 As a side project at the bank, I wrote a sophisticated formatter dubbed LIST whose
-output can be seen [here](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf).
+output can be seen [here](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf?raw=true).
 In addition to the syntax highlighting and flow notation shown, LIST produced a view on
 the code tailored to the programmer's need, generating cross-references, statistics, and
 screen shots for documentation.  When I have time I'll put the rest of the code up here.
