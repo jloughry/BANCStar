@@ -2,6 +2,12 @@ documentation = README.md
 
 EDIT = vi
 
+#
+# Note: make requires that we set the value of a variable OUTSIDE any rules.
+#
+
+timestamp = `date +%Y%m%d.%H%M`
+
 .PHONY: commit notes readme all
 
 all:
