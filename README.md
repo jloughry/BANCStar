@@ -203,7 +203,7 @@ could be "borrowed" long enough to complete the calculation, then restored to th
 before the rightful owner noticed that they were gone.
 
 > - Labels within the code are absolute, so any time a new page was added or removed, all
-downstream GOTOs must be found and retargeted.
+downstream GOTOs must be found and re-targeted.
 
 > A few more details I remember:
 
@@ -213,16 +213,16 @@ soon began to pry off the covers and modify directly the intermediate code that 
 actually executed.
 
 > When I arrived in Seattle in early 1990, I joined a team of seven programmers who by now routinely
-wrote directly in BancSTAR machine language, completely ignoring the screen generator. The first
+wrote directly in BANCStar machine language, completely ignoring the screen generator. The first
 time they showed me the language, I thought it was a joke. But within a few weeks I was reading and
-writing the code, with the aid of every BancSTAR programmer's favorite tools: a dot-matrix printer,
+writing the code, with the aid of every BANCStar programmer's favorite tools: a dot-matrix printer,
 lots and lots of different color highlighters, and a three-ring binder called the Prompt File,
 stuffed with printouts of the dozens of tables in the system, and religiously updated anytime
 anyone changed anything of significance. (I wasn't kidding about reusing storage; if you needed a
 constant integer 1000, and you could find a place where somebody else had once used that same
 value, you linked your code to his and hoped it never changed.)
 
-> We developed some in-house tools for programming large applications in BancSTAR, and at one point
+> We developed some in-house tools for programming large applications in BANCStar, and at one point
 attempted to interest Broadway & Seymour in them, but I think they never really believed us, that
 we were writing directly to their internal, low-level, undocumented machine code.
 
