@@ -1,1 +1,1 @@
-commit after running `make repair-git-blame`
+add to readme: it took about two weeks to become fluent in the language

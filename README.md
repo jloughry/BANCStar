@@ -113,12 +113,12 @@ This is BANCStar source code:
     8500,,2,
     1254,2301,1,-2301
 
-Imagine being introduced to that code your first day on the job. In February, 1990, I was. A team
-of seven programmers maintained hundreds of files of this code in production (we didn't invent it;
-we just had to work with it).
-As a historical curiosity, I present here some of the surviving documentation on the tool I made to
-cope with it, which duplicated as closely as possible the highlighter-pens-and-paper method that
-earlier programmers used to work on the code.
+Imagine being introduced to that code your first day on the job. In February of 1990, I was.
+A team of five programmers maintained hundreds of files of this code in production for years
+(we didn't invent it; we only had to work with it). It took about two weeks to become fluent
+in the language As a historical curiosity, I present here some of the surviving
+documentation on the tool I made to cope with it, which duplicated as closely as possible
+the highlighter-pens-and-paper method that earlier programmers used to work on the code.
 
 ![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
 
