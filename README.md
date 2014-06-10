@@ -120,10 +120,10 @@ in the language As a historical curiosity, I present here some of the surviving
 documentation on the tool I made to cope with it, which duplicated as closely as possible
 the highlighter-pens-and-paper method that earlier programmers used to work on the code.
 
-![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
+![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)<a name="LIST-output"/>
 
-Code Sample
------------
+BANCStar Source Code
+--------------------
 
 The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
 is (presently only the first page of) some production code used in First Interstate Bank
@@ -136,8 +136,8 @@ In addition to the syntax highlighting and flow notation shown, LIST produced a 
 the code tailored to the programmer's need, generating cross-references, statistics, and
 screen shots for documentation.  When I have time I'll put the rest of the code up here.
 
-More Code Samples
------------------
+More BANCStar Source Code
+-------------------------
 
 [`MM1SM1.SCN`](https://github.com/jloughry/BANCStar/blob/master/MM1SM1.SCN) ("Main Menu
 1 Sub-Menu 1") was the top-level programme in the system. When I get the [LIST](#LIST)
@@ -146,11 +146,15 @@ utility running again, I'll post a translated copy here.
 The only [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL)
 I have is the 'liabilities' one.
 
-The `LIST` Programme<a name="LIST"/>
+The `LIST` Utility<a name="LIST"/>
 ------------------
 
+LIST is the programme that translates
+[screen code](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN) into
+something [readable for humans](#LIST-output).
+
 The complete [source code](https://github.com/jloughry/BANCStar/tree/master/LIST/src/)
-to LIST is available. It was written for a now-obsolete Microsoft C compiler on MS-DOS,
+to LIST has been recovered. It was written for a now-obsolete Microsoft C compiler on MS-DOS,
 so it doesn't compile now, but should be easy to port to any POSIX operating system.
 Presently, the source code looks for a few DOS-specific `#include` files like `dos.h`
 and `conio.h`, but I don't think it uses any obsolete memory model features like near
@@ -162,6 +166,31 @@ CMD prompt window).
 The LIST executable needs two data files to work: some
 [screen code](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/MM1SM1.SCN)
 and a [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL).
+Usage is:
+
+````
+LIST Screen File Formatter Version 2.2a                             Revision 11
+Copyright (C) 1990, 1991 Joe Loughry. All rights reserved.
+
+Usage:list [/prompt][/sN][/eN][/a][/d][/f][/h][/n][/x][/z] filename.ext
+
+The options, which may appear in any order, are as follows:
+
+     /icl      Use the prompt file ICL.PFL
+     /liab     Use the prompt file LIAB.PFL
+     /other    Use the prompt file OTHER.PFL
+     /rates    Use the prompt file RATES.PFL
+     /pNAME    Use the prompt file specified by NAME
+     /sN       Start listing at line N of the source file.
+     /eN       Stop listing at line N of the source file.
+     /a        Print listing only; do not print List Report.
+     /d        Format output for the IBM 4019 Laser Printer and send to file.
+     /f        Send output to the file C:\LISTFILE.RJL -- do not print.
+     /h        Display this Help message.
+     /n        Do not perform syntax checking.
+     /x        Print extended Reference List report. [default]
+     /z        Print List report only; do not print listing.
+````
 
 Wikipedia page
 --------------
