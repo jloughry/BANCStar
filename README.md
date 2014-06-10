@@ -164,10 +164,10 @@ and far pointers.
 The 1991-vintage executable still sort of works on Microsoft Windows in 2014 (in a
 CMD prompt window).
 
-The LIST executable needs two data files to work: some
-[screen code](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/MM1SM1.SCN)
-and a [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL).
-Usage is:
+`LIST.EXE` needs two data files to work: some
+[screen code](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/MM1SM1.SCN) and a
+[prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL). Run it
+like this:
 
 ````
 LIST Screen File Formatter Version 2.2a                             Revision 11
@@ -191,6 +191,8 @@ The options, which may appear in any order, are as follows:
      /n        Do not perform syntax checking.
      /x        Print extended Reference List report. [default]
      /z        Print List report only; do not print listing.
+
+$ list -liab -f mm1sm1.scn
 ````
 
 Wikipedia page

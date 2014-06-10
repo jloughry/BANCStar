@@ -1,1 +1,1 @@
-move anchor to bring the screen shot into view
+add example of how to run the programme
