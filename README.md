@@ -206,6 +206,23 @@ The options, which may appear in any order, are as follows:
 $ list -liab -f mm1sm1.scn
 ````
 
+### Porting Notes
+
+To port LIST to a modern POSIX operating system, at least the following changes may
+be required. The source code is ANSI C and I believe it has no dependencies on quirks
+of the real-mode Intel IA32 memory model (*e.g.* `NEAR` and `FAR` pointers).
+
+1. Update the command line option processing code to use POSIX syntax (`-a`) instead
+of MS-DOS syntax (`/a`).
+
+2. In a few places, MS-DOS system calls are used, *e.g.*, waiting for a keypress,
+or to clear the screen.
+
+3. Update the "printer-specific" code (it's all well-marked and bracketed by `#define`
+commands in the source) to add support for boldface, italics, condensed print, and
+underlining (or some other collection of visually distinctive formatting) in the output
+for HTML.
+
 Wikipedia page
 --------------
 
