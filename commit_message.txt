@@ -1,1 +1,1 @@
-add note about missing Makefile
+add list of op codes

@@ -123,6 +123,13 @@ work on the code.
 
 ![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
 
+Op Codes
+--------
+
+A complete list of BANCStar
+[opcodes](http://github.com/jloughry/BANCStar/tree/master/LIST/doc/BANCStar_op_codes.pdf)
+has been found!
+
 BANCStar Source Code
 --------------------
 
