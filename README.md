@@ -159,7 +159,7 @@ to LIST has been recovered. It was written for a now-obsolete Microsoft C compil
 so it doesn't compile now, but should be easy to port to any POSIX operating system.
 Presently, the source code looks for a few DOS-specific `#include` files like `dos.h`
 and `conio.h`, but I don't think it uses any obsolete memory model features like near
-and far pointers.
+and far pointers. There isn't a `Makefile`, sorry.
 
 The 1991-vintage executable still sort of works on Microsoft Windows in 2014 (in a
 CMD prompt window).

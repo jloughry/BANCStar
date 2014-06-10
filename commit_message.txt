@@ -1,1 +1,1 @@
-add example of how to run the programme
+add note about missing Makefile
