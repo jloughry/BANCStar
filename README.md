@@ -133,16 +133,18 @@ has been found!
 BANCStar Source Code
 --------------------
 
-The file [`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.SCN)
-is (presently only the first page of) some production code used in First Interstate Bank
-of Washington around 1991.  It is not used any more, and is of some historical interest,
-so with consent of the participants I have published it here.
+The file
+[`C16LNAPP.SCN`](https://github.com/jloughry/BANCStar/tree/master/LIST/doc/C16LNAPP.SCN.pdf?raw=true)
+(warning: scanned PDF) is a comprehensive example of some production code used in
+First Interstate Bank of Washington around 1991.  It is not used any more, and is of
+some historical interest, so with consent of the participants I have published it here.
 
-As a side project at the bank, I wrote a sophisticated formatter dubbed LIST whose
-output can be seen [here](https://github.com/jloughry/BANCStar/blob/master/C16LNAPP.pdf?raw=true).
-In addition to the syntax highlighting and flow notation shown, LIST produced a view on
-the code tailored to the programmer's need, generating cross-references, statistics, and
-screen shots for documentation.  When I have time I'll put the rest of the code up here.
+As a side project at the bank, I wrote a sophisticated formatter dubbed LIST that
+translated C16LNAPP.SCN into
+[this](https://github.com/jloughry/BANCStar/tree/master/LIST/doc/C16LNAPP.SCN_LIST_report.pdf?raw=true)
+(warning: scanned PDF).
+LIST produced a view on the code tailored to the programmer's need, generating cross-references,
+statistics, and screen shots for documentation.
 
 More BANCStar Source Code
 -------------------------
