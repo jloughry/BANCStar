@@ -127,8 +127,9 @@ Op Codes
 --------
 
 A complete list of BANCStar
-[opcodes](http://github.com/jloughry/BANCStar/raw/master/LIST/doc/BANCStar_op_codes.pdf)
-has been found!
+[opcodes](https://github.com/jloughry/BANCStar/raw/master/LIST/doc/BANCStar_op_codes.pdf)
+has been found! (A plain text version is
+[here](https://github.com/jloughry/BANCStar/tree/master/LIST/src/L_DOC.C).)
 
 BANCStar Source Code
 --------------------
@@ -164,11 +165,12 @@ LIST is the programme that translates
 something [readable for humans](#LIST-output).
 
 The complete [source code](https://github.com/jloughry/BANCStar/tree/master/LIST/src/)
-to LIST has been recovered. It was written for a now-obsolete Microsoft C compiler on MS-DOS,
-so it doesn't compile now, but should be easy to port to any POSIX operating system.
-Presently, the source code looks for a few DOS-specific `#include` files like `dos.h`
-and `conio.h`, but I don't think it uses any obsolete memory model features like near
-and far pointers. There isn't a `Makefile`, sorry.
+to LIST has been recovered (version 2.2b). It was written for a now-obsolete Microsoft
+C compiler on MS-DOS, so it doesn't compile now, but should be easy to port to any
+POSIX operating system. Presently, the source code looks for a few DOS-specific
+`#include` files like `dos.h` and `conio.h`, but I don't think it uses any obsolete
+memory model features like near and far pointers. Sorry the `Makefile` is a scanned
+PDF.
 
 The 1991-vintage executable still sort of works on Microsoft Windows in 2014 (in a
 CMD prompt window).

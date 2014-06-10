@@ -1,1 +1,1 @@
-add full C16LNAPP.SCN and corresponding LIST output (scanned PDFs)
+found Makefile
