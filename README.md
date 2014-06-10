@@ -221,7 +221,7 @@ or to clear the screen.
 3. Update the "printer-specific" code (it's all well-marked and bracketed by `#define`
 commands in the source) to add support for boldface, italics, condensed print, and
 underlining (or some other collection of visually distinctive formatting) in the output
-for HTML.
+so it can be displayed as HTML.
 
 Wikipedia page
 --------------
