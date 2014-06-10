@@ -136,6 +136,25 @@ In addition to the syntax highlighting and flow notation shown, LIST produced a 
 the code tailored to the programmer's need, generating cross-references, statistics, and
 screen shots for documentation.  When I have time I'll put the rest of the code up here.
 
+More Code Samples
+-----------------
+
+[`MM1SM1.SCN`](https://github.com/jloughry/BANCStar/blob/master/MM1SM1.SCN) ("Main Menu
+1 Sub-Menu 1") was the top-level programme in the system. When I get the [LIST](#LIST)
+utility running again, I'll post a translated copy here.
+
+The `LIST` Programme<a name="LIST"/>
+------------------
+
+The complete [source code](https://github.com/jloughry/BANCStar/LIST/src/) to LIST is
+available. It was written for a now-obsolete Microsoft C compiler on MS-DOS, so it doesn't
+compile now, but it should be easy to port to any POSIX operating system. Presently, the
+source code looks for a few DOS-specific `#include` files like `dos.h` and `conio.h`, but
+I don't think it uses any obsolete memory model features like near and far pointers.
+
+The [executable](https://github.com/jloughry/BANCStar/LIST/bin/raw/master/LIST.EXE) sort
+of works in a CMD prompt window on Microsoft Windows.
+
 Wikipedia page
 --------------
 

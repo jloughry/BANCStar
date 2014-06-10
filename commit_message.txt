@@ -1,1 +1,1 @@
-add to readme: it took about two weeks to become fluent in the language
+add LIST source code; update README
