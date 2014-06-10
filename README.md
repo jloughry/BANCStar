@@ -143,17 +143,25 @@ More Code Samples
 1 Sub-Menu 1") was the top-level programme in the system. When I get the [LIST](#LIST)
 utility running again, I'll post a translated copy here.
 
+The only [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL)
+I have is the 'liabilities' one.
+
 The `LIST` Programme<a name="LIST"/>
 ------------------
 
-The complete [source code](https://github.com/jloughry/BANCStar/LIST/src/) to LIST is
-available. It was written for a now-obsolete Microsoft C compiler on MS-DOS, so it doesn't
-compile now, but it should be easy to port to any POSIX operating system. Presently, the
-source code looks for a few DOS-specific `#include` files like `dos.h` and `conio.h`, but
-I don't think it uses any obsolete memory model features like near and far pointers.
+The complete [source code](https://github.com/jloughry/BANCStar/tree/master/LIST/src/)
+to LIST is available. It was written for a now-obsolete Microsoft C compiler on MS-DOS,
+so it doesn't compile now, but should be easy to port to any POSIX operating system.
+Presently, the source code looks for a few DOS-specific `#include` files like `dos.h`
+and `conio.h`, but I don't think it uses any obsolete memory model features like near
+and far pointers.
 
-The [executable](https://github.com/jloughry/BANCStar/LIST/bin/raw/master/LIST.EXE) sort
-of works in a CMD prompt window on Microsoft Windows.
+The 1991-vintage executable still sort of works on Microsoft Windows in 2014 (in a
+CMD prompt window).
+
+The LIST executable needs two data files to work: some
+[screen code](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/MM1SM1.SCN)
+and a [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL).
 
 Wikipedia page
 --------------

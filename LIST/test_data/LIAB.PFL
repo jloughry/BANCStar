@@ -1,0 +1,2001 @@
+Pmts/Year,2304,2
+Term(# Pmts),204,3
+,,
+Principal,205,10
+BALANCE,205,10
+Payment,205,8
+Balloon,205,7
+Intrest Rate,206,7
+Total P&I,205,12
+Date,2303,12
+#1 Pmt Date,2303,12
+Days-Pmt #1,2304,3
+Fed. Days,2304,3
+Interim Days,2304,3
+Interim Base,2304,3
+UCC Fees,11305,7
+UCC Release,11305,7
+Filing Fees,11305,7
+Doc Stamp,11306,7
+Intag. Tax,11306,8
+Sales Tax %,11306,6
+Var Rate,504,7
+Credit Life,306,7
+Level Life,306,7
+A & H Ins.,306,7
+Property Ins,306,7
+Ins Type,304,2
+#Escrow Mths,1104,3
+P/P PMI Rate,1106,7
+FHA IMS. Code,1404,12
+Origin Fee %,11606,7
+Disc Pts %,11606,7
+% FHA In Fin,1404,7
+PV Buydown %,1306,7
+P/P Fees I,11605,8
+P/P Fees II,11605,8
+P/P Fees III,11605,8
+Title Fee,11305,6
+Dealer Prep,11305,6
+Rustproofing,11305,6
+Service Chrg,605,6
+Serv Chrg II,605,6
+Serv Chg III,605,6
+Fees N w/Int,605,8
+Trade In,11205,7
+Lien,11205,10
+Cash Down,11205,8
+Max CL Mths,304,3
+Max A&H Mths,304,3
+Amort Term,204,3
+Const Term,204,3
+%ARM Pmt Cap,7106,7
+Const Rate,206,7
+Mech Ins,11305,8
+,,
+Start at,204,3
+End at Pmt#,204,3
+Maturity,2303,12
+P.M.I. Ins.,1104,10
+# Adj. Prds,7104,10
+Yrs Increase,10304,10
+% Increase,10306,7
+# Level Mths,10304,3
+PMI Rate 1,1106,7
+PMI Rate 2,1106,7
+P/P PMI Term,1104,3
+1st PMI Term,1104,3
+TTL PMI Term,1104,3
+LTV %,1106,7
+Purch Price,1105,10
+,,
+Org Loan Amt,1105,10
+PMI Ins Type,1104,
+,,
+,,
+% Neg Amort.,7106,7
+Pmt Cut-off,10305,10
+Buydown Term,1304,3
+# Pmt Prds,7104,3
+Discount Amt,11205,8
+#XX INT RATE,7106,7
+for TERM of,7104,3
+#XX Payment,205,3
+for Term of,204,3
+Appraisal,1005,10
+Credit Reprt,1005,10
+Assumpt Fee,1005,12
+Title Ins,1005,6
+Title Exam,1005,6
+Title Search,1005,6
+Att. Fees,1005,8
+Doc Prep Fee,1005,6
+Mort App Fee,1005,6
+Inspect Fee,1005,7
+,,
+,,
+Elapsed Days,4,4
+Elapsed Term,504,5
+% Rate Incre,506,7
+* Pmts Made,504,4
+,,
+CLOSING COST,1005,9
+TOTAL FEES,11305,10
+TOTAL DOWN,11205,10
+TTL INS. AMT,305,10
+TTL FEES N/F,605,10
+PRE-PAID F.C.,11605,8
+RENEWAL M.I.,1105,10
+,,
+AMT FINANCED,11205,10
+TTL FIN CHG,11205,10
+TTL PAYMENTS,11205,10
+FED RegZ APR,11206,7
+INTEREST,205,9
+SALES PRICE,11205,10
+PV Buydown,10305,10
+EST. FIN CHG,205,10
+1st Pmt Int.,11605,10
+Doc Stamp,11305,10
+Intag. Tax,11305,10
+Tax,11305,10
+,,
+Credit Life,305,10
+Level Life,305,10
+A & H Ins.,305,10
+Property Ins,305,10
+Simple C/L,305,8
+Escrow,1105,10
+Pre-Paid Ins,1105,10
+FHA M.I.,1405,10
+Origination,11605,10
+Points,11605,10
+FHA Fin,1405,8
+Split Int,208,
+PMI Prem 1,1105,10
+PMI Prem 2,1105,10
+1st Payment,205,10
+Last Payment,205,10
+,,
+Effective Rt,206,7
+Term unround,204,5
+Var Balance,505,10
+New Rate,506,7
+Remain term,504,4
+New Payment,505,8
+New Balloon,505,8
+Reg Int Pmt,505,7
+Trans Date,3,12
+Loan Number,4,3
+Module #,4,2
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+FILE ACCESS Return Code,4,1
+Number,7,15
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+AF Return code,4,1
+AF Respond ID,7,1
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+SUB_PRD1,7,2
+SUB_PRD2,7,2
+SUB_PRD3,7,2
+SUB_PRD4,7,2
+SUB_PRD5,7,2
+SUB_PRD6,7,2
+SUB_PRD7,7,2
+SUB_PRD8,7,2
+SUB_PRD9,7,2
+SUB_PD10,7,2
+* BANK/BRANCH INFO *,8,
+Branch Number,7,3
+Branch Name,7,27
+Branch Address,7,40
+City State Zip,7,40
+Branch Phone Number,7,12
+Manager's Name,7,40
+Title,7,40
+Alternate Employee Number,7,5
+NODE ID,7,7
+WSNODE ID,7,7
+,,
+,,
+AWN215-1,7,5
+SVI216-1,7,2
+Art Work Number,7,5
+Special Vendor Instructions,7,2
+Employee Number,7,5
+,,
+* PROCESSING *,8,
+Process Indicator,4,1
+Process Date,3,10
+Last Logon Date,3,10
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+* ACCOUNT NUMBERS *,8,
+CHECKING,7,11
+INV1636-1,7,12
+ACN237-1,7,11
+MIA1619-1,7,11
+SV11611-1,7,11
+INDIVIDUAL RETIREMENT ACCOUNT,7,12
+Account Number,7,11
+,,
+,,
+,,
+Preferred Checking Customer? (Y/N),7,1
+,,
+,,
+,,
+CK11608-1,7,11
+INV1636-2,7,12
+ACN237-2,7,11
+MIA1619-2,7,11
+SV11611-2,7,11
+* INDICATORS *,8,
+P Order,4,2
+MP  Order,4,1
+SP  Order,4,1
+DP  Order,4,1
+DMP Order,4,1
+B   Order,4,1
+MB  Order,4,1
+SB  Order,4,1
+DB  Order,4,1
+DMB Order,4,1
+DDA Indicator,7,1
+Bancard,7,1
+CDA Indicator,7,1
+MIA Indicator,7,1
+RSV Indicator,7,1
+IRA Indicator,7,1
+LOC Indicator,7,1
+Bus CDA Indicator,7,1
+Bus MIA Indicator,7,1
+Bus RSV Indicator,7,1
+Balance Plus,7,1
+VMC Indicator,7,1
+,,
+INS Indicator,7,1
+Bus DDA Indicator,7,1
+Bancard,7,1
+Balance Plus,7,1
+,,
+Bancard,7,1
+Savings,7,1
+Interest Bearing,7,1
+Investments,7,1
+Credit,7,1
+Installment Loans,7,1
+Mortgage Loans,7,1
+Services,7,1
+Safe Deposit,7,1
+Brokerage,7,1
+Trust,7,1
+Module-#-Hold,4,1
+,,
+* SALES STRATEGY *,8,
+PRIME CUSTOMER,8,
+Full Name,8,
+Daytime Phone,8,
+Comments:,8,
+Major Credit Cards,8,
+Interest Bearing,8,
+Investments,8,
+Credit,8,
+Real estate purchase within 12 months,7,1
+Major purchases/projects within 12 months,7,1
+Major Credit Cards,7,25
+Major Credit Cards Line 2,7,25
+Major Credit Cards Line 3,7,25
+Major Credit Cards Line 4,7,25
+Comments:,7,50
+Comments Line 2,7,59
+Comments Line 3,7,59
+Comments Line 4,7,59
+Comments Line 5,7,59
+$,8,
+First Interstate,4,1
+Mortgage Loans,8,
+Services,8,
+Safe Deposit,8,
+Brokerage,8,
+Trust,8,
+Installment Loans,8,
+,,
+,,
+,,
+,,
+,,
+* ACCOUNT RELATIONSHIPS *,8,
+Customer Relationship,4,1
+CRS326-1,4,1
+CRS326-2,4,1
+CRS326-3,4,1
+CRS326-4,4,1
+REL595-1,4,1
+REL595-2,4,1
+REL595-3,4,1
+CRS326-5,4,1
+REL595-4,4,1
+REL595-5,4,1
+REL595-6,4,1
+CRS326-6,4,1
+REL595-7,4,1
+REL595-8,4,1
+REL595-9,4,1
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+* CUSTOMER 1 *,8,
+Name,7,40
+First Name,7,15
+Middle,7,10
+Last,7,21
+Full Name,7,50
+OA1360-1,7,40
+OA2360-1,7,40
+OCI362-1,7,25
+OST363-1,7,15
+OZI364-1,7,9
+Address,7,40
+Address,7,40
+City,7,25
+State,7,15
+Zip,7,9
+HMP564-1,1,12
+DTP565-1,1,12
+TXN563-1,2,11
+DOB562-1,3,12
+Mothers Maiden Name,7,17
+EMP547-1,7,40
+Occupation,7,2
+Income Bracket,4,1
+Identification,7,30
+P373-1,7,30
+Visa/MC,7,30
+Correct,7,1
+TTL207-4,7,30
+Daytime Phone,1,12
+Home Phone,1,12
+Bancard Name,7,25
+Short Name,7,23
+Pr. Sel Phone,1,12
+FIN351-4,7,15
+MIN352-4,7,10
+LAN353-4,7,21
+Bancard Type,4,1
+,,
+,,
+,,
+* CUSTOMER 2 *,8,
+FIN351-1,7,15
+MIN352-1,7,10
+LAN353-1,7,21
+FUN354-1,7,50
+OA1360-2,7,40
+OA2360-2,7,40
+OCI362-2,7,25
+OST363-2,7,15
+OZI364-2,7,10
+NA1360-3,7,40
+NA2360-3,7,40
+NCI362-3,7,25
+NST363-3,7,15
+NZI364-3,7,9
+HMP564-2,1,12
+DTP565-2,1,12
+TXN563-2,2,11
+DOB562-2,3,12
+Mothers Maiden Name,7,17
+EMP547-2,7,40
+Identification,7,30
+P373-2,7,30
+Visa/MC,7,30
+BC2262-1,7,1
+Correct,7,1
+TTL207-5,7,30
+BCN380-1,7,25
+FIN351-5,7,15
+MIN352-5,7,10
+LAN353-5,7,21
+Same Address?,7,1
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+* CUSTOMER 3 *,8,
+FIN351-2,7,15
+MIN352-2,7,10
+LAN353-2,7,21
+FUN354-2,7,46
+OA1360-3,7,40
+OA2360-3,7,40
+OCI362-3,7,25
+OST363-3,7,15
+OZI364-3,7,10
+NA1360-4,7,40
+NA2360-4,7,40
+NCI362-4,7,25
+NST363-4,7,15
+NZI364-4,7,9
+HMP564-4,1,12
+DTP565-3,1,12
+TXN563-3,2,11
+DOB562-3,3,12
+Mothers Maiden Name,7,17
+EMP547-3,7,40
+Identification,7,30
+P373-3,7,30
+Visa/MC,7,30
+Correct,7,1
+TTL207-6,7,30
+,,
+sent indicator,4,1
+HAS CHECK ORDER BEEN SENT?,7,1
+SEND ORDER NOW? (Y/N),7,1
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+* CUSTOMER 4 *,8,
+FIN351-3,7,15
+MIN352-3,7,10
+LAN353-3,7,21
+FUN354-3,7,46
+OA1360-4,7,40
+OA2360-4,7,40
+OCI362-4,7,25
+OST363-4,7,15
+OZI364-4,7,10
+NA1360-5,7,40
+NA2360-5,7,40
+NCI362-5,7,25
+NST363-5,7,15
+NZI364-5,7,9
+HMP564-3,1,12
+DTP565-4,1,12
+TXN563-4,2,11
+DOB562-4,3,12
+Mothers Maiden Name,7,17
+EMP547-4,7,40
+Identification,7,30
+P373-4,7,30
+Visa/MC,7,30
+Correct,7,1
+Expiration Date,3,12
+ED495-2,3,12
+ED495-3,3,12
+ED495-4,3,12
+ED495-5,3,12
+15.00,8,
+Initial Rate,6,10
+Percentage Share,4,3
+PS502-2,4,3
+PS502-3,4,3
+Percentages Do Not Equal 100,8,
+,,
+,,
+,,
+,,
+* BUSINESS *,8,
+Business Name,7,39
+Business Address,7,40
+OA2360-5,7,40
+OCI362-5,7,25
+OST363-5,7,15
+OZI364-5,7,9
+NA1360-6,7,40
+NA2360-6,7,40
+NCI362-6,7,25
+NST363-6,7,15
+NZI364-6,7,9
+TXN563-5,2,11
+Correct,7,1
+Register Type,4,1
+RGT524-1,7,25
+Phone,1,12
+Business Principal,7,20
+TTL207-1,7,15
+,,
+BUS TRANSFER WORKSHEET FLAG,4,2
+1. Enter name and address of current institution where funds,8,
+are held,8,
+Name of Institution,7,40
+Street Address,7,40
+"City, State, Zip",7,40
+2. Account number to be transferred,7,20
+SECOND PRIMARY BENEFICIARY INFORMATION,8,
+,,
+,,
+* LOAN INFO *,8,
+Credit Limit,5,7
+Secured,7,1
+Unsecured,7,1
+Position,7,15
+Years,4,2
+Months,4,2
+Employer,7,15
+Length of Employment,7,18
+Position,7,10
+Annual Income,5,10
+Employer's Address,7,50
+Annual Income,5,15
+Employer's Address,7,50
+Source,7,17
+Amount,5,10
+P554-1,7,17
+P555-1,5,10
+Marital Status,4,1
+Name,7,40
+Address,7,50
+Length of Residence,7,18
+Date of Birth (MMDDYY),3,12
+Tax ID Number,2,11
+Home Phone,1,12
+Daytime Phone,1,12
+Employer,7,40
+Length of Employment,7,18
+Position,7,20
+Annual Income,5,10
+Employer's Address,7,40
+Credit Under Any Other Name,7,40
+Dependents,4,2
+Years,4,2
+Months,4,2
+Address,7,40
+P575-1,7,40
+City,7,25
+State,7,15
+Zip,7,9
+Length of Residence,7,8
+"Own, Buy or Rent",4,1
+Name of Landlord,7,40
+Landlord's Phone Number,1,12
+Credit Under Any Other Name,7,40
+Armed Forces,7,1
+Branch of Service,7,15
+Unit,7,15
+Rank,7,15
+On Orders,7,3
+Where,7,15
+Allotment Amount,5,10
+Name of Nearest Relative,7,40
+Address,7,40
+Phone,1,12
+Relationship,7,10
+Co-Applicant,4,1
+Bank Used for Checking,7,40
+Account Number,7,20
+How Long,7,18
+Bank Used for Savings,7,40
+Account Number,7,20
+How Long,7,18
+Name of Institution,7,40
+Account Number,7,20
+How Long,7,18
+Name of Institution,7,40
+Account Number,7,20
+How Long,7,18
+Name of Institution,7,40
+Account Number,7,20
+How Long,7,18
+Name of Institution,7,40
+Account Number,7,20
+How Long,7,18
+Cash,5,10
+Checking Account,5,10
+Savings Account,5,10
+First Automobile,5,10
+Second Automobile,5,10
+Home,5,10
+Other Real Estate,5,10
+Household/Personal,5,10
+Other Assets,5,10
+P623-1,7,25
+P623-2,5,10
+P623-3,7,25
+P623-4,5,10
+P623-5,7,25
+P623-6,5,10
+P623-7,7,25
+P623-8,5,10
+P623-9,7,25
+P623-10,5,10
+Total Assets,5,20
+Bank Loans,7,25
+Balance Owing,5,10
+Monthly Payment,5,10
+First Bank Card,7,25
+P636-1,5,10
+P637-1,5,10
+Second Bank Card,7,25
+P636-2,5,10
+P637-2,5,10
+First Automobile,7,25
+P636-3,5,10
+P637-3,5,10
+Second Automobile,7,25
+P636-4,5,10
+P637-4,5,10
+Mortgage/Rent,7,25
+P636-5,5,10
+P637-5,5,10
+Other Real Estate,7,25
+P636-6,5,10
+P637-6,5,10
+Child Support,7,25
+P636-7,5,10
+P637-7,5,10
+Alimony,7,25
+P636-8,5,10
+P637-8,5,10
+Other Debts,7,25
+P636-9,5,10
+P637-9,5,10
+P662-1,7,17
+P662-2,7,25
+P636-10,5,10
+P637-10,5,10
+P662-3,7,17
+P662-4,7,25
+P636-11,5,10
+P637-11,5,10
+P662-5,7,17
+P662-6,7,25
+P636-12,5,10
+P637-12,5,10
+P662-7,7,17
+P662-8,7,25
+P636-13,5,10
+P637-13,5,10
+P662-9,7,17
+P662-10,7,25
+P636-14,5,10
+P637-14,5,10
+Total Liabilities,5,20
+Total Monthly Payments,5,20
+Visa Account,7,1
+Credit Limit,5,10
+MasterCard Account,7,1
+Credit Limit,5,10
+Monthly Earnings,5,10
+Years,4,2
+Months,4,2
+Address,7,40
+info,7,35
+Original Amount,5,10
+Driver's Lic. No.,7,18
+Enlistment Expiration,3,12
+Years,4,2
+Months,4,2
+Monthly Earnings,5,10
+Other Income,5,10
+Source,7,10
+Nearest Relative,7,40
+Address,7,40
+Phone,1,12
+Relationship,7,10
+Branch,7,10
+Years,4,2
+Months,4,2
+Savings Number,7,10
+Years,4,2
+Months,4,2
+Branch,7,10
+Years,4,2
+Months,4,2
+Loan Number,7,10
+Year/Make,7,10
+Original Amount,5,10
+Issuing Bank,7,15
+Bank Charge Card/Number,7,30
+Credit Limit,5,10
+P636-15,5,10
+P637-15,5,10
+Bank Charge Card/Number,7,30
+Issuing Bank,7,15
+Credit Limit,5,10
+P636-16,5,10
+P637-16,5,10
+Creditors,7,15
+Account Number,7,15
+Original Amount,5,10
+Creditor,7,15
+Account Number,7,15
+Original Amount,5,10
+Creditor,7,15
+Account Number,7,15
+Original Amount,5,10
+P636-17,5,10
+P637-17,5,10
+total owing,5,10
+Total Monthly Payments,5,10
+Visa,4,2
+MasterCard,4,2
+Other Authorized User,7,18
+Yes / No,4,1
+Please explain:,7,45
+Years,4,2
+Months,4,2
+Gold MasterCard Account,7,1
+Credit Limit,5,10
+Gold MasterCard,4,2
+Title,8,
+Change To:,7,5
+Annual Sales,4,1
+Number of Employees,4,4
+Standard Industrial Class,4,2
+Merchant Services,7,1
+Insurance,7,1
+Coin & Currency,7,1
+Foreign Exchange,7,1
+Business Credit Card,7,1
+International Trade,7,1
+Credit,7,1
+Employee Benefit Trust,7,1
+Cash Management,7,1
+Payroll Processing Service,7,1
+Investment,7,1
+Interest Bearing Account,7,1
+Short Term (Overnight),7,1
+Long Term,7,1
+Comments,7,60
+Comments-Line2,7,60
+Number of Accounts,4,4
+Combine for Analysis,7,1
+Monthly Transactions,8,
+50 Rolls or More,7,1
+"$ 10,000 or More",7,1
+Business Principal,8,
+SIC for Host Upload,7,4
+R5,8,
+P5,8,
+,,
+* CHECKING (DDA) *,8,
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+BC11697-1,7,1
+24 Hr Acct Info,7,1
+BALANCE PLUS,7,1
+Account Option,4,2
+Safekeeping,7,1
+Statement Date,4,2
+Mail To Home Address,7,1
+Order Checks,7,1
+Checking,5,11
+Savings,5,11
+Account Ownership,4,1
+TXN563-6,2,11
+Tax ID Certification,4,1
+Number of Signers,4,1
+SA1360-8,7,40
+SA2360-8,7,40
+SCI362-8,7,25
+SST363-8,7,15
+SZI364-8,7,10
+Print With:  Home Address,7,1
+Home Phone Number,7,1
+Check Design,4,2
+Check Design Description,7,17
+Cover Color,4,1
+Check Style,7,2
+Starting Number,4,10
+Quantity of Checks,7,2
+Mailing Instructions,4,1
+Address,7,40
+P829-1,7,40
+P829-2,7,40
+Phone,1,12
+Address,7,40
+P833-1,7,40
+P833-2,7,40
+Cash/ABA#,7,10
+P836-1,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+Cash/ABA#,7,10
+P836-2,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+P805-1,7,1
+P829-3,7,40
+ATT1003-4,7,40
+ATT1003-5,7,40
+ATT1003-6,7,40
+ATT1003-7,7,40
+AOP804-1,4,1
+Statement Mailing Address,4,1
+SPC928-1,7,2
+TTL207-1,7,15
+PHN706-1,1,12
+Checking,5,11
+Savings,5,11
+Order Checks,7,1
+Business Deposit Slips,7,1
+Account Ownership,4,1
+Number of Signers,4,1
+TXC813-1,4,1
+SA1360-1,7,40
+SA2360-1,7,40
+SCI362-1,7,25
+SST363-1,7,15
+SZI364-1,7,9
+Cash/ABA#,7,10
+P836-3,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+Cash/ABA#,7,10
+P836-4,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+Quantity,4,5
+Starting Number,4,5
+Paper Color,4,1
+Check Forms,4,2
+Check Formats,4,1
+Binding Style,4,1
+Binder Color,4,1
+Endorsement Stamp,4,1
+Two Signature Lines,7,1
+Special Instructions,7,50
+P884-1,7,50
+Addr for Checks,7,40
+P886-1,7,40
+P886-2,7,40
+P886-3,7,40
+Mail To:,7,40
+P890-1,7,40
+P890-2,7,40
+Number of Orders,4,1
+Correct,7,1
+ATT1003-12,7,40
+ATT1003-13,7,40
+Number of Copies,4,1
+Voucher Formats,4,1
+No. of Copies,4,1
+* INVESTMENT PLUS (CDA) *,8,
+LOI1152-1,4,3
+DOM929-2,4,1
+Amount Invested,5,10
+Rate,6,10
+PMM940-1,7,1
+PMF907-1,7,1
+Payment Frequency,7,12
+AOS859-1,4,1
+Number of Signers,4,2
+TXN563-7,2,11
+TXC813-2,4,1
+Mail Statement To Home Address,7,1
+Jumbo,7,1
+Cash/ABA#,7,10
+P836-5,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+CK21214-1,7,1
+SV2280-1,7,1
+SA1360-2,7,40
+SA2360-2,7,40
+SCI362-2,7,25
+SST363-2,7,15
+SZI364-2,7,9
+P960-1,7,43
+P960-2,7,75
+p960-3,7,75
+subproduct code,7,2
+Days or Months,7,6
+Maturity date - Personal,3,12
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+LOI1152-2,4,3
+DOM929-1,4,1
+Days or Months,7,6
+INA1452-1,5,10
+RAT904-1,6,8
+Payment Method,4,1
+PMF907-2,4,1
+Payment Frequency,7,12
+AOS859-2,4,2
+Number of Signers,4,1
+TXN563-8,2,11
+TXC813-3,4,1
+Statement Mailing Address,4,1
+JUM913-1,7,1
+Cash/ABA#,7,10
+P836-6,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+CK21214-2,7,1
+SV2280-2,7,1
+SA1360-4,7,40
+SA2360-4,7,40
+SCI362-4,7,25
+SST363-4,7,15
+SZI364-4,7,9
+This Certificate Is Payable To:,7,43
+P960-1,7,75
+P960-2,7,75
+Maturity date - Business,3,12
+subproduct code,7,2
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+Accessories,4,1
+* MARKET INTEREST (MIA) *,8,
+BC11697-2,7,1
+,,
+BALANCE PLUS,7,1
+STD806-1,4,2
+Mail To Home Address,7,1
+Order Checks,7,1
+Checking,5,11
+AOS859-3,4,1
+TXN563-9,2,11
+TXC813-7,4,1
+Number of Signers,4,2
+SA1360-7,7,40
+SA2360-7,7,40
+SCI362-7,7,25
+SST363-7,7,15
+SZI364-7,7,9
+Print With:  Home Address,7,1
+Home Phone Number,7,1
+Starting Number,4,10
+Mailing Instructions,4,1
+Address,7,40
+P991-1,7,40
+P991-2,7,40
+Phone,1,12
+Address,7,40
+P995-1,7,40
+P995-2,7,40
+Cash/ABA#,7,10
+P836-7,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+P991-3,7,40
+ACCOUNT TITLE,7,40
+ATT1003-1,7,40
+ATT1003-2,7,40
+ATT1003-3,7,40
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+Savings Option,4,1
+Expiration Date,4,1
+Market Interest Account,5,11
+Order Checks,7,1
+Business Deposit Slips,7,1
+AOS859-4,4,1
+Statement Mailing Address,4,1
+Number of Signers,4,1
+TXN563-10,2,11
+TXC813-4,4,1
+Cash/ABA#,7,10
+P836-8,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+Starting Number,4,5
+Special Mailing,7,50
+Address,7,50
+Address,7,40
+P1028-1,7,40
+P1028-2,7,40
+P1028-3,7,40
+Mail To:,7,40
+P1032-1,7,40
+P1032-2,7,40
+Number of Orders,4,1
+SA1360-3,7,40
+SA2360-3,7,40
+SCI362-3,7,25
+SST363-3,7,15
+SZI364-3,7,9
+Correct,7,1
+ATT1003-14,7,40
+ATT1003-15,7,40
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+,,
+,,
+* SAVINGS (RSV) *,8,
+BC2262-2,7,1
+Savings,5,11
+DOB562-5,3,12
+AOS859-5,4,1
+Number of Signers,4,1
+TXN563-11,2,11
+TXC813-5,4,1
+Order Deposit and Withdrawal Slips,7,1
+Mail Statement to Home Address,7,1
+Cash/ABA#,7,20
+P836-9,7,20
+Hold Amount,5,10
+Funds Available On,3,12
+Mailing Instructions,4,1
+Address,7,40
+P1065-1,7,40
+P1065-2,7,40
+SA1360-6,7,40
+SA2360-6,7,40
+SCI362-6,7,25
+SST363-6,7,15
+SZI364-6,7,9
+ATT1003-8,7,40
+ATT1008-9,7,40
+ATT1003-10,7,40
+ATT1003-11,7,40
+OTHER INFORMATION,7,25
+OTH1077-1,7,25
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+Savings,5,11
+Order Deposits and Withdrawals,7,1
+Statement Mailing Address,4,1
+AOS859-6,4,1
+Number of Signers,4,1
+TXN563-12,2,11
+TXC813-6,4,1
+Cash/ABA#,7,10
+P836-10,7,10
+Hold Amount,5,10
+Funds Available On,3,12
+Special Instructions,7,50
+P1094-1,7,50
+SA1360-5,7,40
+SA2360-5,7,40
+SCI362-5,7,25
+SST363-5,7,15
+SZI364-5,7,9
+ATT1003-16,7,40
+ATT1003-17,7,40
+HOLD,4,1
+Check Amount,5,10
+No. of Business Days,4,3
+Exception,4,1
+Account Option,4,1
+Product Change Ready?,7,1
+,,
+* INSURANCE *,8,
+Name of Spouse,7,40
+Date of Birth,3,12
+Long Term Care Insurance,7,1
+Medicare Supplement Insurance,7,1
+Cancer Plan,7,1
+Major Medical,7,1
+Other,7,1
+Term Life,7,1
+Universal Life,7,1
+Cash Provider Life for Seniors,7,1
+Mortgage Acceleration,7,1
+Home Owner,7,1
+Auto Insurance,7,1
+Insurance Flag,7,1
+Change To:,8,
+New Business Checking Account Profile,8,
+Business Name,8,
+Phone,8,
+Date,8,
+Officer Assigned,8,
+Annual Sales,8,
+Number of Employees,8,
+Standard Industrial Class,8,
+Business Relationship,8,
+Product,8,
+MARKET INTEREST,8,
+Merchant Services,8,
+Insurance,8,
+Coin & Currency,8,
+Foreign Exchange,8,
+Business Credit Card,8,
+International Trade,8,
+Credit,8,
+Employee Benefit Trust,8,
+Cash Management,8,
+Payroll Processing Service,8,
+Investment,8,
+ACTION:,8,
+___________________________________________________________,8,
+* RETIREMENT (IRA) *,8,
+IRA Opening Amount,5,11
+Length of Investment,4,1
+P1152-1,7,22
+Type of Account,4,1
+Type of Contribution,4,1
+Applicable Tax Year,4,4
+Marital Status,4,1
+Primary Beneficiary (1),7,40
+Primary Beneficiary (2),7,40
+Contingent Beneficiary,7,40
+Relationship,7,15
+Date of Birth,3,12
+Address,7,40
+Address,7,40
+Relationship,7,15
+Date of Birth,3,12
+Address,7,40
+Address,7,40
+Relationship,7,15
+Date of Birth,3,12
+Address,7,40
+Address,7,40
+Accuret,7,2
+ACCOUNT SIGNERS,8,
+Interest Bearing Account,8,
+Short Term (Overnight),8,
+Long Term,8,
+Officer Code,7,6
+PRODUCT AND SERVICES REVIEW,8,
+* OPTIONAL FORMS *,8,
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+OTHER,7,32
+OTHER-LINE2,7,32
+Name of Person Entitled to Payment,7,40
+Type Of Account To Be Credited,4,1
+Claim or Payroll ID Number,7,11
+Prefix,7,1
+Suffix,7,1
+Type of Payment,4,2
+Government Agency Name,7,40
+Address,7,40
+Address,7,40
+Type,7,8
+Transfer Amount,5,10
+Transfer Code,7,7
+Date of First Transfer,3,12
+Checking,7,1
+Savings,7,1
+FIWA,7,1
+Other Bank,7,1
+Branch,7,15
+Bank Name & ABA Number,7,20
+ABA Number,7,20
+FIWA Number,7,10
+Branch,7,15
+Account Type,4,1
+P1223-1,7,10
+TRANSFER WORKSHEET FLAG,4,2
+Chrg Acct,7,3
+OA1360-6,7,40
+OA2360-6,7,40
+OCI362-6,7,25
+OST363-6,7,15
+OA1360-7,7,40
+OA2360-7,7,40
+OCI362-7,7,25
+OST363-7,7,15
+AA11687-1,7,40
+AA21687-1,7,40
+AA31687-1,7,40
+Salutation,7,40
+AA11687-2,7,40
+AA21687-2,7,40
+AA31687-2,7,40
+SA11238-1,7,40
+,,
+Signer-1,7,40
+Signer-2,7,40
+Signer-3,7,40
+Signer-4,7,40
+Business Indicator,4,1
+ACCURET Indicator,7,1
+Date,3,12
+OZI364-6,7,9
+OZI364-7,7,9
+bus checking help,7,1
+,,
+* HOST INTERFACE *,8,
+Existing-1 Indicator,4,1
+Existing-2 Indicator,4,1
+Existing-3 Indicator,4,1
+Existing-4 Indicator,4,1
+Existing-Business Indicator,4,1
+Online Indicator,4,1
+Addr-tie,4,4
+Name-tie-2,4,4
+Name-tie-3,4,4
+Name-tie-4,4,4
+Tie-Business,4,4
+Status,7,2
+Multiple Indicator,4,1
+Name-tie,4,4
+ADDITIONAL RELATIONSHIPS,7,1
+Download ACPR,4,1
+Retrieval Indicator-Business,4,1
+Retrieval Indicator-Business1,4,1
+Retrieval Indicator-Business2,4,1
+Retrieval Indicator-Business3,4,1
+Retrieval Indicator-Personal1,4,1
+Retrieval Indicator-Personal2,4,1
+Retrieval Indicator-Personal3,4,1
+Retrieval Indicator-Personal4,4,1
+Upload Customer-1,4,1
+Upload Customer-2,4,1
+Upload Customer-3,4,1
+Upload Customer-4,4,1
+Upload Customer-Business,4,1
+Upload BUS SS DDA Hold,4,1
+Upload BUS SS RSV Hold,4,1
+Upload BUS SS MIA Hold,4,1
+Upload BUS CDA Hold,4,1
+Upload BUS RSV Hold,4,1
+Upload SS DDA,4,1
+Upload SS RSV,4,1
+Upload MIA,4,1
+Upload CDA,4,1
+Upload RSV,4,1
+Upload SS DDA Hold,4,1
+Upload SS RSV Hold,4,1
+Upload MIA Hold,4,1
+Upload CDA Hold,4,1
+Upload RSV Hold,4,1
+Upload CDA TD0L,4,1
+Upload TD0L Liab,4,1
+Upload TD$2 Liab,4,1
+Upload CDA Withdrawal,4,1
+Upload CDA Surrender,4,1
+,,
+,,
+Upload DDA BAD1,4,1
+Upload MIA BAD1,4,1
+Upload RSV BAD1,4,1
+Upload DDA RES1,4,1
+Upload MIA RES1,4,1
+Upload RSV RES1,4,1
+,,
+Information Currently Unavailable,8,
+Existing Customer (Y/N)?,7,1
+Set Up Customer(s)?,7,1
+Upload Sales Management,4,1
+Retrieving Customer Relationships Please Wait...,7,1
+Customer Relationship Review,4,1
+A,7,1
+Product,7,11
+Account #,7,20
+Opened,7,8
+Balance,7,13
+Relationship,7,22
+Status,7,11
+Date Closed,7,8
+B,7,1
+Product-2,7,11
+Account Number-2,7,20
+Date Opened-2,7,8
+Balance-2,7,13
+Relationship-2,7,22
+Status-2,7,11
+Date Closed-2,7,8
+C,7,1
+Product-3,7,11
+Account Number-3,7,20
+Date Opened-3,7,8
+Balance-3,7,13
+Relationship-3,7,22
+Status-3,7,11
+Date Closed-3,7,8
+D,7,1
+Product-4,7,11
+Account Number-4,7,20
+Date Opened-4,7,8
+Balance-4,7,13
+Relationship-4,7,22
+Status-4,7,11
+Date Closed-4,7,8
+E,7,1
+Product-5,7,11
+Account Number-5,7,20
+Date Opened-5,7,8
+Balance-5,7,13
+Relationship-5,7,22
+Status-5,7,11
+Date Closed-5,7,8
+F,7,1
+Product-6,7,11
+Account Number-6,7,20
+Date Opened-6,7,8
+Balance-6,7,13
+Relationship-6,7,22
+Status-6,7,11
+Date Closed-6,7,8
+G,7,1
+Product-7,7,11
+Account Number-7,7,20
+Date Opened-7,7,8
+Balance-7,7,13
+Relationship-7,7,22
+Status-7,7,11
+Date Closed-7,7,8
+H,7,1
+Product-8,7,11
+Account Number-8,7,20
+Date Opened-8,7,8
+Balance-8,7,13
+Relationship-8,7,22
+Status-8,7,11
+Date Closed-8,7,8
+I,7,1
+Product-9,7,11
+Account Number-9,7,20
+Date Opened-9,7,8
+Balance-9,7,13
+Relationship-9,7,22
+Status-9,7,11
+Date Closed-9,7,8
+J,7,1
+Product-10,7,11
+Account Number-10,7,20
+Date Opened-10,7,8
+Balance-10,7,13
+Relationship-10,7,22
+Status-10,7,11
+Date Closed-10,7,8
+Address-Line-2,7,42
+Address-Line-3,7,42
+,,
+Address-Line-4,7,42
+Address-Line-5,7,42
+Address-Line-6,7,42
+Address-Line-7,7,42
+Your system is currently changed to Offline mode,8,
+Press the ENTER key to continue . . .,8,
+Multiple customer records were found,8,
+#,8,
+M,8,
+wsalpha#17,7,10
+wsalpha#18,7,10
+wsalpha#19,7,10
+wsalpha#20,7,10
+wsnum#11,4,3
+wsnum#12,4,3
+wsnum#13,4,3
+wsnum#14,4,3
+* WHAT IFS *,8,
+Minimum Monthly Balance,5,10
+Number of Checks or ATM Withdrawals,4,4
+Account Option,7,40
+Value: In One Year,4,12
+In Two Years,4,12
+In Three Years,4,12
+At Age 60,4,12
+At Age 65,4,12
+At Age 70,4,12
+Federal Excise Tax of 10%,4,10
+Balance,4,10
+"Savings (1), or Market Interest (2)",4,1
+Goal,4,10
+Withdrawals per Year,4,2
+Required Amount is,5,10
+IRA at Retirement if Opened Now,4,10
+IRA at Retirement if You Wait,4,10
+Net Loss to You at Retirement,4,10
+Retirement Age in Years,4,10
+Present Age in Years,4,10
+Amount of Annual Deposit,4,10
+Monthly,4,12
+Quarterly,4,12
+Semi-Annually,4,12
+Annually,4,12
+Value of Account,4,12
+Amount of Withdrawal,4,12
+Early Withdrawal Penalty,4,10
+Compare (Y/N),7,1
+Interest Earned,4,10
+Interest Rate,6,8
+Investment Amount,4,12
+Future Value,4,12
+Years,4,2
+Months,4,2
+Yield,6,10
+Regular Deposit Amount,4,12
+Number of Deposits per Year,4,2
+Days,4,4
+"Savings (1), Certificate (2),",7,1
+"Purchase (1), or Refinance (2)?",7,1
+,,
+,,
+,,
+Real estate purchase within 12 months,8,
+Major purchase/projects within 12 months,8,
+83,8,
+,,
+,,
+* PRODUCT & SALES *,8,
+,,
+psalpha#1,7,40
+psalpha#2,7,40
+psalpha#3,7,40
+psalpha#4,7,40
+psalpha#5,7,40
+psalpha#6,7,40
+psalpha#7,7,40
+psalpha#8,7,40
+psalpha#9,7,40
+psalpha#10,7,40
+psalpha#11,7,40
+psalpha#12,7,40
+psalpha#13,7,40
+psalpha#14,7,40
+psalpha#15,7,40
+psalpha#16,7,40
+psnum#1,4,2
+psnum#2,4,2
+* WORKING STORAGE *,8,
+,,
+WSALPHA#14,7,10
+WSALPHA#15,7,10
+cd flag,4,1
+WSALPHA#19,7,12
+,,
+WSALPHA#17,7,51
+WSALPHA#18,7,51
+WSDATE#1,3,12
+WSDATE#2,3,12
+n,4,10
+i,4,10
+pv,5,12
+wk1,4,10
+wk2,4,10
+wk3,4,10
+wk4,4,10
+wk5,4,10
+i1,4,10
+wk6,4,8
+wk7,4,10
+wk8,4,10
+wk9,4,10
+a1,4,12
+lf%,6,6
+cr1,4,10
+tr1,4,10
+rf1,4,10
+app1,4,10
+ti1,4,10
+common prompt,7,40
+P1521-1,7,50
+P1521-2,7,40
+P1521-3,7,40
+P1521-4,7,40
+P1521-5,7,40
+P1521-6,7,51
+wsnum#1,4,4
+wsnum#2,4,4
+wsnum#3,4,4
+wsnum#4,4,2
+wsnum#5,4,4
+wsnum#6,4,10
+goto flag,4,10
+wsnum#8,4,10
+wsnum#9,4,10
+wsnum#10,4,10
+wsalpha#1,7,4
+wsalpha#2,7,4
+wsalpha#3,7,4
+wsalpha#4,7,4
+wsalpha#5,7,4
+wsalpha#6,7,10
+wsalpha#7,7,10
+wsalpha#8,7,10
+wsalpha#9,7,10
+pause flag,7,10
+WS Dollar #1,5,10
+WS Dollar #2,5,10
+welcome flag,4,1
+pcheck flag,4,1
+pinvest flag,4,1
+pmia flag,4,1
+BalPlus flag,4,1
+visa flag,4,1
+psav flag,4,1
+insure flag,4,1
+retire flag,4,1
+bcheck flag,4,1
+binvest flag,4,1
+bmia flag,4,1
+bsav flag,4,1
+Security,4,4
+ir2,6,10
+Load side two and ready printer,7,2
+wsalpha#11,7,50
+wsalpha#12,7,50
+wsalpha#13,7,40
+wsalpha#14,7,40
+wsalpha#15,7,40
+Enter Selection,7,2
+wsalpha#16,7,2
+wsdate/time,7,4
+,,
+,,
+* CONSTANTS *,8,
+YR,8,
+06,8,
+0,8,
+M,8,
+PRODUCTS AND SERVICES REVIEW,8,
+Limited Option,8,
+Non-Deductible Early Distribution,8,
+10000000000,8,
+Account Balance Exceeded!,8,
+(ENTER) to continue,8,
+30.416,8,
+EARLY WITHDRAWAL PENALTY,8,
+Term in ===>,8,
+ACTUAL FIGURES MAY VARY FROM THE INVESTMENT PROJECTION ABOVE,8,
+or Market Interest (3),8,
+CURRENT BANK ACCOUNTS,8,
+SECOND CUSTOMER,8,
+ASSETS,8,
+DEBTS/LIABILITIES,8,
+CHECK ORDER,8,
+Name of Creditor,8,
+Balance Owing,8,
+Monthly Payment,8,
+.,8,
+THIRD CUSTOMER,8,
+FOURTH CUSTOMER,8,
+CUSTOMER ADDRESS INFORMATION,8,
+Social Security,8,
+FIRST INTERSTATE BANK OF WASHINGTON,8,
+Opening Amount,8,
+FIRST INTERSTATE,8,
+CHECKING,8,
+CUSTOMER INFORMATION,8,
+INITIAL DEPOSIT,8,
+SAVINGS,8,
+CHECK ORDER MAILING ADDRESS,8,
+Mail To,8,
+RELATIONSHIP FOR:,8,
+Bancard,8,
+,,
+Balance Plus,8,
+APPLICATION FOR CREDIT,8,
+MARKET INTEREST ACCOUNT,8,
+PREVIOUS ADDRESS INFORMATION,8,
+PREVIOUS EMPLOYER INFORMATION,8,
+INDIVIDUAL RETIREMENT ACCOUNT,8,
+ARMED FORCES INFORMATION,8,
+SPOUSE INFORMATION,8,
+Account Number,8,
+VISA/MASTERCARD,8,
+125000286,8,
+STATEMENT MAILING ADDRESS,8,
+ADDRESS FOR CHECKS,8,
+FINANCIAL INFORMATION,8,
+First Interstate,8,
+19-28,8,
+PHONE NUMBER FOR CHECKS,8,
+UNCOLLECTED FUNDS HOLD,8,
+OTHER DEPOSIT ACCOUNTS,8,
+INVESTMENT PLUS,8,
+SOURCE OF FUNDS,8,
+CASH/ABA#,8,
+(Certificate of Deposit),8,
+INSURANCE,8,
+WELCOMES,8,
+NEW ADDRESS INFORMATION,8,
+XX,8,
+Y,8,
+N,8,
+1,8,
+*,8,
+-,8,
+X,8,
+Interest,8,
+Length of Residence,8,
+Length of Employment,8,
+Overdraft Protection,8,
+Savings Order Mailing Address,8,
+Other Income -,8,
+BUSINESS,8,
+Information For Top Of Checks,8,
+BUSINESS DEPOSIT SLIPS,8,
+"Have you ever had any repossessions,",8,
+AUTOMOBILE,8,
+MEDICAL/HEALTH INSURANCE,8,
+Balance,8,
+Owing,8,
+Monthly,8,
+Payment,8,
+Mortgage/Contract Holder,8,
+OTHER CREDITORS,8,
+"judgements, attachments or other",8,
+legal proceedings against you?,8,
+FINANCIAL/LEGAL INFORMATION,8,
+"Alimony, Support or Maintenance Payments",8,
+TOTALS,8,
+VISA/MASTERCARD APPLICATION,8,
+Application For:,8,
+Features of Our Personal Checking Accounts:,8,
+BANCARD            CONVENIENCE,8,
+TELEPHONE BANKING  SAVES TIME,8,
+BALANCE PLUS       OVERDRAFT PROTECTION,8,
+OPTIONAL:,8,
+PRIMARY BENEFICIARY INFORMATION,8,
+Contingent Beneficiary Information,8,
+Number of Cards Requested:,8,
+Allotment Payment,8,
+MORTGAGE INSURANCE,8,
+LIFE INSURANCE,8,
+Thank You Letter,8,
+Alternate Address,8,
+Second Letter,8,
+Dear,8,
+CHARGE ACCOUNT,8,
+CREDIT ACCOUNT,8,
+CM,8,
+W2,8,
+EQ,8,
+BALANCE PLUS,8,
+HOLD INFORMATION,8,
+BANCARD,8,
+Checking,8,
+New,8,
+R0,8,
+P0,8,
+PC,8,
+PM,8,
+PA,8,
+PP,8,
+PV,8,
+TA,8,
+TT,8,
+CO,8,
+02,8,
+03,8,
+04,8,
+05,8,
+07,8,
+08,8,
+09,8,
+01,8,
+EM,8,
+9900,8,
+$25.00,8,
+55,8,
+Days,8,
+Months,8,
+CR,8,
+E,8,
+,,
+Certificate of Deposit,8,
+NAMES,8,
+Please Wait...,8,
+IRA,8,
+Visa/Mastercard,8,
+Line of Credit,8,
+Insurance,8,
+FINANCIAL REVIEW,8,
+Household Income,8,
+10,8,
+11,8,
+CHECKS SHOULD BE PRINTED AS FOLLOWS:,8,
+12,8,
+G,8,
+H,8,
+S,8,
+T,8,
+,8,
+I,8,
+,8,
+,8,
+DEPOSIT SLIPS SHOULD BE PRINTED AS FOLLOWS:,8,
+WT,8,
+x,8,
+Pmt Rate #1,6,12
+Accrual Rate #1,6,12
+Term #1,4,12
+P&I  #1,5,12
+Pmt Rate #2,6,12
+Accrual Rate #2,6,12
+Term #2,4,12
+P&I  #2,5,12
+Pmt Rate #3,6,12
+Accrual Rate #3,6,12
+Term #3,4,12
+P&I  #3,5,12
+Pmt Rate #4,6,12
+Accrual Rate #4,6,12
+Term #4,4,12
+P&I  #4,5,12
+Pmt Rate #5,6,12
+Accrual Rate #5,6,12
+Term #5,4,12
+P&I  #5,5,12
+Pmt Rate #6,6,12
+Accrual Rate #6,6,12
+Term #6,4,12
+P&I  #6,5,12
+Pmt Rate #7,6,12
+Accrual Rate #7,6,12
+Term #7,4,12
+P&I  #7,5,12
+Pmt Rate #8,6,12
+Accrual Rate #8,6,12
+Term #8,4,12
+P&I  #8,5,12
+Pmt Rate #9,6,12
+Accrual Rate #9,6,12
+Term #9,4,12
+P&I  #9,5,12
+Pmt Rate #10,6,12
+Accrual Rate #10,6,12
+Term #10,4,12
+P&I  #10,5,12
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+reducing life term (mos),7,4
+level life term,7,4
+A&H term,7,4
+coverage of reducing life,7,15
+coverage of level life,7,15
+coverage of A&H,7,15
+reducing life prem.,7,15
+level life prem.,7,15
+total life prem.,7,15
+,,
+,,
+Pmt Amt #1,5,12
+Pmt Amt #2,5,12
+Pmt Amt #3,5,12
+Pmt Amt #4,5,12
+Pmt Amt #5,5,12
+Pmt Amt #6,5,12
+Pmt Amt #7,5,12
+Pmt Amt #8,5,12
+Pmt Amt #9,5,12
+Pmt Amt #10,5,12
+Pmt Amt #11,5,12
+Pmt Amt #12,5,12
+Pmt Amt #13,5,12
+Pmt Amt #14,5,12
+Pmt Amt #15,5,12
+Pmt Amt #16,5,12
+Pmt Amt #17,5,12
+Pmt Amt #18,5,12
+Pmt Amt #19,5,12
+Pmt Amt #20,5,12
+Pmt Amt #21,5,12
+Pmt Amt #22,5,12
+Pmt Amt #23,5,12
+Pmt Amt #24,5,12
+Pmt Amt #25,5,12
+Pmt Amt #26,5,12
+Pmt Amt #27,5,12
+Pmt Amt #28,5,12
+Pmt Amt #29,5,12
+Pmt Amt #30,5,12
+Pmt Amt #31,5,12
+Pmt Amt #32,5,12
+Pmt Amt #33,5,12
+Pmt Amt #34,5,12
+Pmt Amt #35,5,12
+Pmt Amt #36,5,12
+Pmt Amt #37,5,12
+Pmt Amt #38,5,12
+Pmt Amt #39,5,12
+Pmt Amt #40,5,12
+Doc #1 Date,3,12
+Doc #2 Date,3,12
+Doc #3 Date,3,12
+Doc #4 Date,3,12
+Doc #5 Date,3,12
+Doc #6 Date,3,12
+Doc #7 Date,3,12
+Doc #8 Date,3,12
+Doc #9 Date,3,12
+Doc #10 Date,3,12
+Doc #11 Date,3,12
+Doc #12 Date,3,12
+Doc #13 Date,3,12
+Doc #14 Date,3,12
+Doc #15 Date,3,12
+Doc #16 Date,3,12
+Doc #17 Date,3,12
+Doc #18 Date,3,12
+Doc #19 Date,3,12
+Doc #20 Date,3,12
+Doc #21 Date,3,12
+Doc #22 Date,3,12
+Doc #23 Date,3,12
+Doc #24 Date,3,12
+Doc #25 Date,3,12
+Doc #26 Date,3,12
+Doc #27 Date,3,12
+Doc #28 Date,3,12
+Doc #29 Date,3,12
+Doc #30 Date,3,12
+Doc #31 Date,3,12
+Doc #32 Date,3,12
+Doc #33 Date,3,12
+Doc #34 Date,3,12
+Doc #35 Date,3,12
+Doc #36 Date,3,12
+Doc #37 Date,3,12
+Doc #38 Date,3,12
+Doc #39 Date,3,12
+Doc #40 Date,3,12
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+P/P PMI Term,4,12
+1st PMI Term,4,12
+2nd PMI Term,4,12
+Term Ending With No PMI Ins,4,12
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+Pmt Term #1,4,12
+Pmt Term #2,4,12
+Pmt Term #3,4,12
+Pmt Term #4,4,12
+Pmt Term #5,4,12
+Pmt Term #6,4,12
+Pmt Term #7,4,12
+Pmt Term #8,4,12
+Pmt Term #9,4,12
+Pmt Term #10,4,12
+Pmt Term #11,4,12
+Pmt Term #12,4,12
+Pmt Term #13,4,12
+Pmt Term #14,4,12
+Pmt Term #15,4,12
+Pmt Term #16,4,12
+Pmt Term #17,4,12
+Pmt Term #18,4,12
+Pmt Term #19,4,12
+Pmt Term #20,4,12
+Pmt Term #21,4,12
+Pmt Term #22,4,12
+Pmt Term #23,4,12
+Pmt Term #24,4,12
+Pmt Term #25,4,12
+Pmt Term #26,4,12
+Pmt Term #27,4,12
+Pmt Term #28,4,12
+Pmt Term #29,4,12
+Pmt Term #30,4,12
+Pmt Term #31,4,12
+Pmt Term #32,4,12
+Pmt Term #33,4,12
+Pmt Term #34,4,12
+Pmt Term #35,4,12
+Pmt Term #36,4,12
+Pmt Term #37,4,12
+Pmt Term #38,4,12
+Pmt Term #39,4,12
+Pmt Term #40,4,12
+Pmt Date #1,3,12
+Pmt Date #2,3,12
+Pmt Date #3,3,12
+Pmt Date #4,3,12
+Pmt Date #5,3,12
+Pmt Date #6,3,12
+Pmt Date #7,3,12
+Pmt Date #8,3,12
+Pmt Date #9,3,12
+Pmt Date #10,3,12
+Pmt Date #11,3,12
+Pmt Date #12,3,12
+Pmt Date #13,3,12
+Pmt Date #14,3,12
+Pmt Date #15,3,12
+Pmt Date #16,3,12
+Pmt Date #17,3,12
+Pmt Date #18,3,12
+Pmt Date #19,3,12
+Pmt Date #20,3,12
+Pmt Date #21,3,12
+Pmt Date #22,3,12
+Pmt Date #23,3,12
+Pmt Date #24,3,12
+Pmt Date #25,3,12
+Pmt Date #26,3,12
+Pmt Date #27,3,12
+Pmt Date #28,3,12
+Pmt Date #29,3,12
+Pmt Date #30,3,12
+Pmt Date #31,3,12
+Pmt Date #32,3,12
+Pmt Date #33,3,12
+Pmt Date #34,3,12
+Pmt Date #35,3,12
+Pmt Date #36,3,12
+Pmt Date #37,3,12
+Pmt Date #38,3,12
+Pmt Date #39,3,12
+Pmt Date #40,3,12
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+
