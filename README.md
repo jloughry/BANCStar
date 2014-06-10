@@ -120,7 +120,8 @@ in the language As a historical curiosity, I present here some of the surviving
 documentation on the tool I made to cope with it, which duplicated as closely as possible
 the highlighter-pens-and-paper method that earlier programmers used to work on the code.
 
-![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)<a name="LIST-output"/>
+<a name="LIST-output"/>
+![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
 
 BANCStar Source Code
 --------------------

@@ -1,1 +1,1 @@
-add USAGE example
+I hate Markdown.
