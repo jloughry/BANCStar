@@ -123,7 +123,8 @@ the highlighter-pens-and-paper method that earlier programmers used to work on t
 ![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
 
 This was before HTML; the output device we had was a dot matrix printer, which could do
-<font size="-2">condensed type</font>, <b>boldface</b>, <i>italics</i>, and <u>underlining</u>.
+<small>condensed type</small>, <b>boldface</b>, <i>italics</i>, and <u>underlining</u>
+(some of those attributes will require CSS to mimic on modern browsers).
 
 Op Codes
 --------
@@ -224,7 +225,7 @@ commands in the source) to add support for boldface, italics, condensed print, a
 underlining (or some other collection of visually distinctive formatting) in the output
 so it can be displayed as HTML.
 
-4. Recompile with the appropriate `#define`s to support HTML output.
+4. Recompile with the appropriate `#define` commands to support HTML output.
 
 Wikipedia page
 --------------

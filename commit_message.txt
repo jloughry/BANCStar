@@ -1,1 +1,1 @@
-explain dot matrix printer output
+add CSS notes to README
