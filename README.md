@@ -116,20 +116,21 @@ This is BANCStar source code:
 Imagine being introduced to that code your first day on the job. In February of 1990, I was.
 A team of five programmers maintained hundreds of files of this code in production for years
 (we didn't invent it; we only had to work with it). It took about two weeks to become fluent
-in the language. As a historical curiosity, I present here some of the surviving
-documentation on the <a name="LIST-output"/>tool I made to cope with it, which duplicated as
-closely as possible the highlighter-pens-and-paper method that earlier programmers used to
-work on the code.
+in the language. As a historical curiosity, I present here the
+<a name="LIST-output"/>tool I made to cope with it, which duplicated as closely as possible
+the highlighter-pens-and-paper method that earlier programmers used to work on the code.
 
 ![screen shot](https://github.com/jloughry/BANCStar/raw/master/screenshot.jpeg)
+
+This was before HTML; the output device we had was a dot matrix printer, which could do
+<font size="-2">condensed type</font>, <b>boldface</b>, <i>italics</i>, and <u>underlining</u>.
 
 Op Codes
 --------
 
 A complete list of BANCStar
-[opcodes](https://github.com/jloughry/BANCStar/raw/master/LIST/doc/BANCStar_op_codes.pdf)
-has been found! (A plain text version is
-[here](https://github.com/jloughry/BANCStar/tree/master/LIST/src/L_DOC.C).)
+[opcodes](https://github.com/jloughry/BANCStar/tree/master/LIST/src/L_DOC.C)
+has been found (at the end of this file).
 
 BANCStar Source Code
 --------------------
@@ -152,10 +153,10 @@ More BANCStar Source Code
 
 [`MM1SM1.SCN`](https://github.com/jloughry/BANCStar/blob/master/MM1SM1.SCN) ("Main Menu
 1 Sub-Menu 1") was the top-level programme in the system. When I get the [LIST](#LIST)
-utility running again, I'll post a translated copy here.
+utility running again, I'll post the translation here.
 
 The only [prompt file](https://github.com/jloughry/BANCStar/tree/master/LIST/test_data/LIAB.PFL)
-I have is the 'liabilities' one.
+I have is the 'liabilities' one, `LIAB.PFL`.
 
 The `LIST` Utility<a name="LIST"/>
 ------------------
@@ -222,6 +223,8 @@ or to clear the screen.
 commands in the source) to add support for boldface, italics, condensed print, and
 underlining (or some other collection of visually distinctive formatting) in the output
 so it can be displayed as HTML.
+
+4. Recompile with the appropriate `#define`s to support HTML output.
 
 Wikipedia page
 --------------
