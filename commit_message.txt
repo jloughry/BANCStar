@@ -1,1 +1,2 @@
-add CSS notes to README
+testing to see whether renaming a file from L_MAIN.C to l_main.c makes
+GitHub identify the file as C source instead of C++.
