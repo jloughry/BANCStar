@@ -54,7 +54,7 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
      int draw_tiny_label( unsigned prompt_number, int row, int column,
                           boolean window, boolean has_table, boolean has_help );
 
-     char inline[MAX_LINE_LENGTH];         /* input line of BANCStar code    */
+     char line[MAX_LINE_LENGTH];         /* input line of BANCStar code    */
      struct sourceline inputline;          /* four fields of the input line  */
      char name_of_prompt[MAX_LINE_LENGTH]; /* displayed name of prompt       */
      char response_field[MAX_LINE_LENGTH]; /* displayed repsonse fields (BB) */
@@ -179,7 +179,7 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
           return(-1);
      }
 
-     while (((fgets_rc = fgets(inline, MAX_LINE_LENGTH, fp_input)) != NULL))
+     while (((fgets_rc = fgets(line, MAX_LINE_LENGTH, fp_input)) != NULL))
      {
           ++linenum;
           ++total_number_of_lines;
@@ -313,7 +313,7 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
      **  Main SCREENPRINT while loop:
      */
 
-     while ((fgets_rc = fgets(inline, MAX_LINE_LENGTH, fp_input)) != NULL)
+     while ((fgets_rc = fgets(line, MAX_LINE_LENGTH, fp_input)) != NULL)
      {
           ++linenum;
 
@@ -321,7 +321,7 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
           **  Read a line of code.
           */
 
-          read_bancstar_source_code(inline, &inputline);
+          read_bancstar_source_code(line, &inputline);
 
           M1 = abs ( inputline.L1 );
           M2 = abs ( inputline.L2 );
@@ -584,9 +584,9 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
                         has_table = FALSE;
                         if (inputline.L3 < 0) {
                                 oldM1 = M1;
-                                if (fgets(inline, MAX_LINE_LENGTH, fp_input) !=
+                                if (fgets(line, MAX_LINE_LENGTH, fp_input) !=
                                       NULL) {
-                                        read_bancstar_source_code(inline,
+                                        read_bancstar_source_code(line,
                                                                   &inputline);
                                         M1 = abs ( inputline.L1 );
                                         M2 = abs ( inputline.L2 );
@@ -603,11 +603,11 @@ int make_screen_prints ( char *name, Promptfile prompt, Sellstar_system main_m,
                                 }
                                 rewind(fp_input);
                                 for (long_i=0; long_i<linenum; long_i++) {
-                                        fgets( inline,
+                                        fgets( line,
                                                MAX_LINE_LENGTH,
                                                fp_input );
                                 }
-                                read_bancstar_source_code(inline, &inputline);
+                                read_bancstar_source_code(line, &inputline);
                                 M1 = abs ( inputline.L1 );
                                 M2 = abs ( inputline.L2 );
                                 M3 = abs ( inputline.L3 );

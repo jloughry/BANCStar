@@ -56,7 +56,7 @@ int bbdd ( Promptfile prompt, int starting_at ) {
                 long comment_index;
                 long help_index;
                 unsigned char endbyte;
-        }
+        };
         typedef struct ddrecordtype ddrecord;
         ddrecord current_record;
         int record_index = 0;
