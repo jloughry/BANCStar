@@ -22,12 +22,12 @@ int get_short_prompt( char *name, Promptfile prompt, int n,
      {
           ++prompt[n].referenced;              /* track number of times used */
 
-          pointer = prompt[n].reference_list;               /***************/
+          pointer = prompt[n].referenced_list;               /***************/
                                                             /* follow the  */
           if ( pointer == NULL )                            /* linked list */
           {                                                 /* of elements */
-               prompt[n].reference_list = reflist_alloc();  /* to the end. */
-               pointer = prompt[n].reference_list;          /***************/
+               prompt[n].referenced_list = reflist_alloc();  /* to the end. */
+               pointer = prompt[n].referenced_list;          /***************/
 
                pointer->linenumber = line_number;
                pointer->next = NULL;
