@@ -9,7 +9,7 @@ extern unsigned char con[], coff[], bold[], boff[], ital[], itoff[];
 **                                                                          **
 *****************************************************************************/
 
-int comments( char *return_string, struct sourceline inline,
+int comments( char *return_string, struct sourceline line,
               Promptfile prompt, long line_number )
 {
      int get_prompt( char *, Promptfile, int, long );
@@ -42,10 +42,10 @@ int comments( char *return_string, struct sourceline inline,
      fprintf(stderr, "entering COMMENTS\n");
 #endif
 
-     M1 = abs(inline.L1);             /* so we don't have to worry about   */
-     M2 = abs(inline.L2);             /* minus signs.                      */
-     M3 = abs(inline.L3);
-     M4 = abs(inline.L4);
+     M1 = abs(line.L1);             /* so we don't have to worry about   */
+     M2 = abs(line.L2);             /* minus signs.                      */
+     M3 = abs(line.L3);
+     M4 = abs(line.L4);
 
      strcpy(return_string, "");       /* will eventually hold the comment. */
 
@@ -132,7 +132,7 @@ int comments( char *return_string, struct sourceline inline,
                     strcat(return_string, coff);
                }
 
-               if ( inline.L1 < 0 )        /* minus sign on prompt number */
+               if ( line.L1 < 0 )        /* minus sign on prompt number */
                {
                     strcat(return_string, " (N/A)");
                     strcat(return_string, coff);
@@ -146,7 +146,7 @@ int comments( char *return_string, struct sourceline inline,
           **  an automatic table pop-up or an automatic help.
           */
 
-          if (inline.L3 < 0)
+          if (line.L3 < 0)
           {
                strcat(return_string, con);
                strcat(return_string, " (automatic help)");
@@ -157,7 +157,7 @@ int comments( char *return_string, struct sourceline inline,
           **  No response field on this prompt (label only).
           */
 
-          if (inline.L3 == 0)
+          if (line.L3 == 0)
           {
                strcat(return_string, con);
                strcat(return_string, " (no response)");
@@ -169,7 +169,7 @@ int comments( char *return_string, struct sourceline inline,
           ** Response only on this prompt (no name displayed).
           */
 
-          if (inline.L2 == 0)
+          if (line.L2 == 0)
           {
                strcat(return_string, con);
                strcat(return_string, " (response only)");
@@ -1839,7 +1839,7 @@ int comments( char *return_string, struct sourceline inline,
           */
 
           operator_2 = M2 / 10;
-          operand_2 = inline.L2 % 10;
+          operand_2 = line.L2 % 10;
 
           if ( operand_2 != 0 )
           {
@@ -2312,10 +2312,10 @@ int comments( char *return_string, struct sourceline inline,
                      line_number);
 
      fprintf(stdout, "--> %d,%d,%d,%d\n",
-                     inline.L1,
-                     inline.L2,
-                     inline.L3,
-                     inline.L4
+                     line.L1,
+                     line.L2,
+                     line.L3,
+                     line.L4
      );
 
      strcpy(return_string, "(LIST DID NOT UNDERSTAND THIS LINE)");

@@ -23,7 +23,7 @@ extern unsigned char space[], question_mark[], page_break_char[],
 *****************************************************************************/
 
 int arrows(char *string, boolean *forward, boolean *reverse,
-           struct sourceline inline, long linenum)
+           struct sourceline line, long linenum)
 {
      int read_bancstar_source_code(char *, struct sourceline *);
 
@@ -48,8 +48,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Close forward block conditional, not inside reverse block.
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 1) && (*reverse == 0) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3001) && (*forward == 1) && (*reverse == 0) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *forward = 0;
           strcat(string, close_forward_block);             /* "ÀÄ>" */
@@ -62,8 +62,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Close forward block conditional, inside a reverse block.
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 1) && (*reverse == 1) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3001) && (*forward == 1) && (*reverse == 1) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *forward = 0;
           strcat(string, close_forward_block);             /* "À×>" */
@@ -77,8 +77,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **                   one has been opened.  (Apparently harmless, though.)
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 0) && (*reverse == 0) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3001) && (*forward == 0) && (*reverse == 0) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *forward = 0;
           strcat(string, question_mark);                   /* "?? " */
@@ -93,8 +93,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **                   [ Inside a reverse block. ]
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 0) && (*reverse == 1) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3001) && (*forward == 0) && (*reverse == 1) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *forward = 0;
           strcat(string, question_mark);                   /* "?? " */
@@ -107,8 +107,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Close reverse block conditional, not inside forward block.
      */
 
-     if ( (inline.L1 == 3101) && (*reverse == 0) && (*forward == 0) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3101) && (*reverse == 0) && (*forward == 0) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *reverse = 1;
           strcat(string, space);                           /* " É¯" */
@@ -121,8 +121,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Close reverse block conditional, inside a forward block condition.
      */
 
-     if ( (inline.L1 == 3101) && (*reverse == 0) && (*forward == 1) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3101) && (*reverse == 0) && (*forward == 1) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *reverse = 1;
           strcat(string, continue_forward_block);          /* "³É¯" */
@@ -137,8 +137,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **                  conditionals require thinking backwards in time. ]
      */
 
-     if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *reverse = 1;
           strcat(string, question_mark);                   /* "???" */
@@ -154,8 +154,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **                  [ Inside a forward block conditional. ]
      */
 
-     if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
-          (inline.L2 == 0) && (inline.L3 == 0) && (inline.L4 == 0) )
+     if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
+          (line.L2 == 0) && (line.L3 == 0) && (line.L4 == 0) )
      {
           *reverse = 1;
           strcat(string, question_mark);                   /* "???" */
@@ -168,8 +168,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Open a forward block condition (not inside a reverse block).
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 0) && (*reverse == 0) &&
-          ((inline.L2 != 0) || (inline.L3 != 0) || (inline.L4 != 0)) )
+     if ( (line.L1 == 3001) && (*forward == 0) && (*reverse == 0) &&
+          ((line.L2 != 0) || (line.L3 != 0) || (line.L4 != 0)) )
      {
           *forward = 1;
           strcat(string, open_forward_block);             /* "ÚÄ " */
@@ -182,8 +182,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Open a forward block condition (inside a reverse block).
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 0) && (*reverse == 1) &&
-          ((inline.L2 != 0) || (inline.L3 != 0) || (inline.L4 != 0)) )
+     if ( (line.L1 == 3001) && (*forward == 0) && (*reverse == 1) &&
+          ((line.L2 != 0) || (line.L3 != 0) || (line.L4 != 0)) )
      {
           *forward = 1;
           strcat(string, open_forward_block);              /* "Ú× " */
@@ -196,8 +196,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Open another forward block conditional, not inside a reverse block.
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 1) && (*reverse == 0) &&
-          ((inline.L2 != 0) || (inline.L3 != 0) || (inline.L4 != 0)) )
+     if ( (line.L1 == 3001) && (*forward == 1) && (*reverse == 0) &&
+          ((line.L2 != 0) || (line.L3 != 0) || (line.L4 != 0)) )
      {
           *forward = 1;
           strcat(string, another_forward_block);           /* "ÃÄ " */
@@ -210,8 +210,8 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **  Open another forward block conditional, inside a reverse block.
      */
 
-     if ( (inline.L1 == 3001) && (*forward == 1) && (*reverse == 1) &&
-          ((inline.L2 != 0) || (inline.L3 != 0) || (inline.L4 != 0)) )
+     if ( (line.L1 == 3001) && (*forward == 1) && (*reverse == 1) &&
+          ((line.L2 != 0) || (line.L3 != 0) || (line.L4 != 0)) )
      {
           *forward = 1;
           strcat(string, another_forward_block);           /* "Ã× " */
@@ -240,7 +240,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
      **                  always line up exactly right.  So we do it this way.
      *************************************************************************/
 
-     if ( (inline.L1 == 3101) && (*reverse == 1) )
+     if ( (line.L1 == 3101) && (*reverse == 1) )
      {
           countdown = 0;       /* yet another of the infamous state machines */
 
@@ -281,7 +281,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **  a forward block conditional. ]
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
+          if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
                (countdown > 0) )
           {
                *reverse = 1;
@@ -296,7 +296,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **  a forward block), so close it.
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
+          if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 0) &&
                (countdown <= 0) )
           {
                *reverse = 0;
@@ -311,7 +311,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **  forward block conditional. ]
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
+          if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
                (countdown > 0) )
           {
                *reverse = 1;
@@ -326,7 +326,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **  forward block), so close it.
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
+          if ( (line.L1 == 3101) && (*reverse == 1) && (*forward == 1) &&
                (countdown <= 0) )
           {
                *reverse = 0;
@@ -343,7 +343,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **                   whoever thought them up. ]
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 0) && (*forward == 0) )
+          if ( (line.L1 == 3101) && (*reverse == 0) && (*forward == 0) )
           {
                *reverse = 0;
                strcat(string, question_mark);              /* "?? " */
@@ -358,7 +358,7 @@ int arrows(char *string, boolean *forward, boolean *reverse,
           **                   forward block conditional. ]
           */
 
-          if ( (inline.L1 == 3101) && (*reverse == 0) && (*forward == 1) )
+          if ( (line.L1 == 3101) && (*reverse == 0) && (*forward == 1) )
           {
                *reverse = 0;
                strcat(string, question_mark);              /* "?? " */

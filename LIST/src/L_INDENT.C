@@ -7,7 +7,7 @@
 **                                                                          **
 *****************************************************************************/
 
-int indentation(char *string, struct sourceline inline, boolean in_reverse)
+int indentation(char *string, struct sourceline line, boolean in_reverse)
 {
      char *spaces(int);
      int M1, M2, M3, M4;       /* indent_level is currently global */
@@ -16,12 +16,12 @@ int indentation(char *string, struct sourceline inline, boolean in_reverse)
      fprintf(stderr, "entering INDENTATION\n");
 #endif
 
-     M1 = abs(inline.L1);      /**************************************/
-     M2 = abs(inline.L2);      /* NOTE: this routine makes use of    */
-     M3 = abs(inline.L3);      /*       all those global indentation */
-     M4 = abs(inline.L4);      /*       variables defined at the     */
-                               /*       beginning of the program.    */
-                               /**************************************/
+     M1 = abs(line.L1);      /**************************************/
+     M2 = abs(line.L2);      /* NOTE: this routine makes use of    */
+     M3 = abs(line.L3);      /*       all those global indentation */
+     M4 = abs(line.L4);      /*       variables defined at the     */
+                             /*       beginning of the program.    */
+                             /**************************************/
 
      /*
      **  All code inside a 3001 block conditional is indented 2 spaces.
