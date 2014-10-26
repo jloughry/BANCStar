@@ -67,7 +67,7 @@ int list( char *name, Promptfile prompt, long start, long end,
      char new_indentline[MAX_LINE_LENGTH]; /* shortened version of indentln  */
      char commentline[MAX_LINE_LENGTH];    /* for the comments themselves    */
 
-     char inline[MAX_LINE_LENGTH];         /* input line of BANCStar code    */
+     char line[MAX_LINE_LENGTH];         /* input line of BANCStar code    */
      struct sourceline inputline;          /* four fields of the input line  */
      struct sourceline_string inputline_string;  /* string version of above  */
 
@@ -132,7 +132,7 @@ int list( char *name, Promptfile prompt, long start, long end,
           return(-1);
      }
 
-     while (((fgets_rc = fgets(inline, MAX_LINE_LENGTH, fp_input)) != NULL))
+     while (((fgets_rc = fgets(line, MAX_LINE_LENGTH, fp_input)) != NULL))
      {
           ++linenum;
           ++total_number_of_lines;
@@ -208,7 +208,7 @@ int list( char *name, Promptfile prompt, long start, long end,
 
      if (start > 1)               /* then skip lines in file to start */
      {
-          while (((fgets_rc = fgets(inline, MAX_LINE_LENGTH, fp_input)) != NULL))
+          while (((fgets_rc = fgets(line, MAX_LINE_LENGTH, fp_input)) != NULL))
           {
                ++linenum;
 
@@ -216,7 +216,7 @@ int list( char *name, Promptfile prompt, long start, long end,
                **  Read a line of code and look at it.
                */
 
-               read_bancstar_source_code(inline, &inputline);
+               read_bancstar_source_code(line, &inputline);
 
                if (inputline.L4 < 0)
                     ++pagenum;
@@ -279,7 +279,7 @@ int list( char *name, Promptfile prompt, long start, long end,
 
      length_of_page = 0;
 
-     while ((fgets_rc = fgets(inline, MAX_LINE_LENGTH, fp_input)) != NULL)
+     while ((fgets_rc = fgets(line, MAX_LINE_LENGTH, fp_input)) != NULL)
      {
           ++linenum;
 
@@ -304,7 +304,7 @@ int list( char *name, Promptfile prompt, long start, long end,
           **  Read a line of code.
           */
 
-          read_bancstar_source_code(inline, &inputline);
+          read_bancstar_source_code(line, &inputline);
 
           strcpy(outline, "");
 
